@@ -174,14 +174,7 @@ public class DateUtil {
             return 0;
         }
     }
-    /**
-     *
-     * @作者 js
-     * @方法名 getQuartzAfterNow
-     * @功能 TODO 获取现在时间若干毫米前后的时间
-     * @param millis
-     * @return
-     */
+
     public static String getQuartzAfterNow(int millis) {
         long now=new Date().getTime();
         SimpleDateFormat sdf = new SimpleDateFormat("s m H d M ? y");
